@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * Created by huangjy on 2019/7/25.
  */
-public class CountDownLatchExample {
+public class CountDownLatchDemo1 {
     public static void main(String[] args) throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(5);
         CountDownLatchService service = new CountDownLatchService(latch);
