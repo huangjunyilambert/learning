@@ -6,6 +6,7 @@ import java.util.concurrent.Executors;
 
 /**
  * Created by huangjy on 2019/7/26.
+ * https://www.jianshu.com/p/bb5105303d85
  */
 public class CyclicBarrierDemo {
     private static CyclicBarrier barrier = new CyclicBarrier(5);
